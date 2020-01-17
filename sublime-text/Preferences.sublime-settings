@@ -1,0 +1,15 @@
+{
+  "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+  "folder_exclude_patterns": [
+    ".git",
+    "log",
+    "node_modules",
+    "storage",
+    "tmp"
+  ],
+  "font_size": 12,
+  "remember_full_screen": true,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true
+}
