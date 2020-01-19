@@ -10,6 +10,7 @@ alias ....="cd ../../../"
 alias cp="cp -p"
 alias mkdir="mkdir -p"
 alias ll="ls -aFGo"
+alias rm="rm -i"
 
 # git
 alias cwe="git diff-tree --check $(git hash-object -t tree /dev/null) HEAD" # check for whitespace errors
