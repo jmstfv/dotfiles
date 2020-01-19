@@ -13,6 +13,7 @@ brew "postgresql", restart_service: true
 brew "rbenv"
 brew "redis", restart_service: true
 brew "ripgrep"
+brew "tree"
 brew "wget"
 brew "yarn"
 
