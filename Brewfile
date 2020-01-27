@@ -6,6 +6,7 @@ tap "homebrew/services"
 brew "brotli"
 brew "fd"
 brew "git"
+brew "mailhog", restart_service: true
 brew "nghttp2"
 brew "node"
 brew "openssl@1.1"
