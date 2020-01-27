@@ -9,6 +9,9 @@ HISTSIZE="100000"
 # set nano as a default editor for CLI
 export EDITOR="nano"
 
+# opt out of Homebrew’s analytics
+export HOMEBREW_NO_ANALYTICS=1
+
 # initialize the zsh completion system
 autoload -Uz compinit && compinit
 
