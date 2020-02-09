@@ -25,8 +25,9 @@ alias gp="git push"
 alias gr="git reset"
 alias gs="git status"
 
-# middleman
-alias ms="bundle exec middleman serve"
+# nanoc
+alias nb="bundle exec nanoc compile --env=devel"
+alias ns="bundle exec nanoc live --port 3001"
 
 # misc
 alias h="history 1"
