@@ -4,6 +4,7 @@
     ".git",
     "log",
     "node_modules",
+    "output",
     "storage",
     "tmp"
   ],
