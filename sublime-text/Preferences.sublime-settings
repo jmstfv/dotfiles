@@ -2,6 +2,9 @@
   "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
   "folder_exclude_patterns": [
     ".git",
+    ".hg",
+    ".svn",
+    "CVS",
     "log",
     "node_modules",
     "output",
