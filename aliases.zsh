@@ -36,7 +36,7 @@ alias rnd="head -c 200 /dev/urandom | base64 | tr -d '=+/'"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ."
 
 # rails & friends
-alias cpd="bundle exec cap production deploy"
+alias cpd="git push && bundle exec cap production deploy"
 alias rb="bundle exec rubocop"
 alias rc="bin/rails console"
 alias rn="bin/rails notes"
