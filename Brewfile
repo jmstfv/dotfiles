@@ -19,6 +19,7 @@ brew "stripe/stripe-cli/stripe"
 brew "tree"
 brew "vips"
 brew "wget"
+brew "whois"
 brew "yarn"
 
 cask "firefox"
