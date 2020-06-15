@@ -17,6 +17,7 @@ brew "redis", restart_service: true
 brew "ripgrep"
 brew "sqlite"
 brew "stripe/stripe-cli/stripe"
+brew "tarsnap"
 brew "tree"
 brew "vips"
 brew "wget"
