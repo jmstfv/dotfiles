@@ -24,6 +24,7 @@ alias gnuke="git clean -df && git reset --hard"
 alias gp="git push"
 alias gr="git reset"
 alias gs="git status"
+alias gls="git ls-tree -r master --name-only"
 
 # nanoc
 alias nb="bundle exec nanoc compile --env=devel"
