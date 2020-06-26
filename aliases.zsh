@@ -3,17 +3,20 @@ alias bi="bundle install"
 alias bo="bundle outdated"
 alias bu="bundle update"
 
-# file system
+# cd
 alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
+
+# sane(r) defaults
 alias cp="cp -p"
 alias mkdir="mkdir -p"
 alias ll="ls -aFGo"
 alias rm="rm -i"
 
 # git
-alias cwe="git diff-tree --check $(git hash-object -t tree /dev/null) HEAD" # check for whitespace errors
+# check for whitespace errors
+alias cwe="git diff-tree --check $(git hash-object -t tree /dev/null) HEAD"
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
@@ -24,6 +27,7 @@ alias gnuke="git clean -df && git reset --hard"
 alias gp="git push"
 alias gr="git reset"
 alias gs="git status"
+# list all files tracked by git
 alias gls="git ls-tree -r master --name-only"
 
 # nanoc
