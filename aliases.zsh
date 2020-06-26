@@ -39,6 +39,7 @@ alias h="history 1"
 alias rg="rg -S"
 alias rnd="head -c 200 /dev/urandom | base64 | tr -d '=+/'"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ."
+alias tl="tarsnap --list-archives | sort | tail -n 1"
 
 # rails & friends
 alias cpd="git push && bundle exec cap production deploy"
