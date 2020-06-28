@@ -13,6 +13,7 @@ alias cp="cp -p"
 alias mkdir="mkdir -p"
 alias ll="ls -aFGo"
 alias rm="rm -i"
+alias rg="rg -S"
 
 # git
 # check for whitespace errors
@@ -36,7 +37,6 @@ alias ns="bundle exec nanoc live --port 3001"
 
 # misc
 alias h="history 1"
-alias rg="rg -S"
 alias rnd="head -c 200 /dev/urandom | base64 | tr -d '=+/'"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ."
 alias tl="tarsnap --list-archives | sort | tail -n 1"
