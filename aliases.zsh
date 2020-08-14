@@ -32,8 +32,8 @@ alias gs="git status"
 alias gls="git ls-tree -r master --name-only"
 
 # nanoc
-alias nb="bundle exec nanoc compile --env=devel"
-alias ns="bundle exec nanoc live --port 3001"
+alias nb="npm run build && bundle exec nanoc compile --env=devel"
+alias ns="npm run build && bundle exec nanoc live --port 3001"
 
 # misc
 alias h="history 1"
