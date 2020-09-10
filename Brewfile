@@ -7,6 +7,7 @@ tap "stripe/stripe-cli"
 brew "brotli"
 brew "fd"
 brew "git"
+brew "git-lfs"
 brew "mailhog", restart_service: true
 brew "nghttp2"
 brew "node"
