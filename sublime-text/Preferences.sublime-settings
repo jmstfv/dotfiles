@@ -1,6 +1,7 @@
 {
   "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
   "folder_exclude_patterns": [
+    ".cache",
     ".git",
     ".hg",
     ".svn",
