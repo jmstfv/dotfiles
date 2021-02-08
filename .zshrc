@@ -17,8 +17,13 @@ setopt share_history          # share command history data (between terminals)
 # set nano as a default editor for CLI
 export EDITOR=nano
 
-# opt out of Homebrew’s analytics
+# opt out of Homebrew’s spyware
 export HOMEBREW_NO_ANALYTICS=1
+
+# sir, this is a development environment
+export RAILS_ENV=development
+export RACK_ENV=development
+export NODE_ENV=development
 
 # initialize the zsh completion system
 autoload -Uz compinit && compinit
